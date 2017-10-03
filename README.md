@@ -10,6 +10,7 @@
 La respuesta rescpecto a los principios SOLID que _no_ se cumplen estan dentro de la carpeta Pregunta 1.
 
 ### Pregunta 2:
-Los archivos Python con los patrones de diseño
+Los archivos Python con los patrones de diseño modificados se encuentran en la carpeta Pregunta 2.
 
 ### Pregunta 3:
+El código de conección para la base de datos SQLITE se encuentra en la carpeta Pregunta 3.
