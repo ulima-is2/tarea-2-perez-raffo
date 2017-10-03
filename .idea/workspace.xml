@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8be384d-f469-45ab-a0a9-eeaf5ac86846" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pregunta 2/patrones.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patrones.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pregunta 2/Pregunta 2.md" afterPath="$PROJECT_DIR$/Pregunta 2/Pregunta 2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pregunta 3/clase conectar.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
