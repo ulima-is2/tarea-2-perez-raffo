@@ -39,7 +39,11 @@ class Conectar():
         c.close()
 
     # funcion insertar elementos
+<<<<<<< HEAD
     def inserts(self):
+=======
+    def InsertarE(self):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
 
         c = conn.cursor()
 
@@ -100,14 +104,22 @@ class Conectar():
         c.close()
 
     # Funcion listar cines 
+<<<<<<< HEAD
     def listar_Cines(self):
+=======
+    def listarCines(self):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
         c = conn.cursor()
         c.execute("SELECT * FROM CINE")
         R = c.fetchall()
         pass
 
     # funcion listar peliculas
+<<<<<<< HEAD
     def listar_peliculas(self, id_cine):
+=======
+    def listarPeliculas(self, id_cine):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
         c = conn.cursor()
         c.execute("""SELECT PELICULA.id_pelicula, nombrePeli FROM PELICULA
             JOIN PELI_CINE ON PELICULA.id_pelicula = PELI_CINE.id_pelicula 
@@ -120,7 +132,11 @@ class Conectar():
         return x
         
     # funcion listar funciones
+<<<<<<< HEAD
     def listar_funciones(self, id_cine, id_pelicula):
+=======
+    def listarFunciones(self, id_cine, id_pelicula):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
         c = conn.cursor()
         c.execute("""SELECT id_funcion, id_cine, id_pelicula, hora, min FROM FUNCION 
             WHERE id_cine = (?) and id_pelicula = (?)""", (id_cine, id_pelicula) )
@@ -132,7 +148,11 @@ class Conectar():
         return x
 
      #Funcion añadir entrada
+<<<<<<< HEAD
     def anadir_entrada(self, id_pelicula, id_funcion, cantidad):
+=======
+    def anadirEntrada(self, id_pelicula, id_funcion, cantidad):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
         c = conn.cursor()
         c.execute("""INSERT INTO ENTRADA(id_funcion, cantidad)
             VALUES (?, ?)""", (id_funcion, cantidad) )
@@ -141,7 +161,11 @@ class Conectar():
         return x
 
     # funcion listar entradas
+<<<<<<< HEAD
     def listar_entradas(self, id_funcion):
+=======
+    def listarEntradas(self, id_funcion):
+>>>>>>> 0eeae41f4e4a8d18ec59b9cf5fdf34a49ac64ae0
         c = conn.cursor()
         c.execute("""SELECT E.id_entrada, F.id_pelicula, E.id_funcion, E.cantidad FROM ENTRADA E
             JOIN FUNCION F ON E.id_funcion = F.id_funcion
