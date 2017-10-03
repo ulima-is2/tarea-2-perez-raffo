@@ -1,10 +1,10 @@
-## Fachada
-explicar
+# Pregunta 2
 
-## Decorator
-explicar
+Los patrones que se utlizaron fueron los siguientes:
+* Composite
+* Factory
+* Decorator
+* Fachada
 
-## Singleton
-explicar
 
 
