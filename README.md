@@ -1,4 +1,4 @@
-# IS2 - TAREA 2
+﻿# IS2 - TAREA 2
 ### GRUPO PEREZ - RAFFO
 ### Integrantes:
 | Nombre | Codigo | Usuario |
@@ -14,3 +14,5 @@ Los archivos Python con los patrones de diseño modificados se encuentran en la 
 
 ### Pregunta 3:
 El código de conección para la base de datos SQLITE se encuentra en la carpeta Pregunta 3.
+
+loooooooooooooooooooooooooooooooooooooooooooooooooooo
